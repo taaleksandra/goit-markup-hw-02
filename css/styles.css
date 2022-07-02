@@ -4,6 +4,8 @@
   --descriptions-color: #757575;
   --background-dark-color: #2f303a;
   --background-light-color: #f5f4fa;
+  --white-color: #ffffff;
+  --black-color: #000000;
 }
 
 body {
@@ -16,7 +18,7 @@ body {
 /* header styles */
 
 .site-bar-wrapper {
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 .logo-first {
   color: var(--accent-color);
@@ -32,7 +34,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
-  color: #000000;
+  color: var(--black-color);
 }
 .main-navigation {
   list-style: none;
@@ -62,7 +64,7 @@ body {
   height: 600px;
 }
 .container-main-first-caption {
-  color: #ffffff;
+  color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -74,7 +76,7 @@ body {
   width: 200px;
   height: 50px;
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-color);
   border: none;
   font-weight: 700;
   font-size: 16px;
@@ -116,7 +118,7 @@ body {
   list-style: none;
 }
 .container-team-worker {
-  background-color: #ffffff;
+  background-color: var(--white-color);
   width: 270px;
   height: 368px;
 }
@@ -144,10 +146,10 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .address-info {
-  color: #ffffff;
+  color: var(--white-color);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -179,12 +181,12 @@ body {
 }
 .filtr-button:hover {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-color);
   cursor: pointer;
 }
 .filtr-button:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-color);
   cursor: pointer;
 }
 .projects-list {
