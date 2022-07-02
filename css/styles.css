@@ -162,6 +162,9 @@ body {
 .address-info a:hover {
   color: var(--accent-color);
 }
+.address-info a:focus {
+  color: var(--accent-color);
+}
 
 /* portfolio-page styles */
 
