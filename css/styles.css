@@ -19,12 +19,12 @@ body {
   background-color: #ffffff;
 }
 .logo-first {
+  color: var(--accent-color);
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
-  color: var(--accent-color);
 }
 .logo-second {
   text-decoration: none;
@@ -161,3 +161,39 @@ body {
 }
 
 /* portfolio-page styles */
+
+.filtr-button {
+  background-color: var(--background-light-color);
+  color: var(--main-color);
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: top;
+}
+.filtr-button:hover {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  cursor: pointer;
+}
+.filtr-button:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  cursor: pointer;
+}
+.projects-list {
+  list-style: none;
+}
+.projects-list figcaption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  vertical-align: top;
+  letter-spacing: 0.75px;
+}
+
+.projects-list span {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--descriptions-color);
+}
