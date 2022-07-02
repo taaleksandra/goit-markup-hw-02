@@ -159,6 +159,9 @@ body {
   text-decoration: none;
   color: #ffffff99;
 }
+.address-info a:hover {
+  color: var(--accent-color);
+}
 
 /* portfolio-page styles */
 
