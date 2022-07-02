@@ -157,14 +157,20 @@ body {
   vertical-align: top;
   letter-spacing: 0.25px;
 }
-.address-info a {
+.address-link {
   text-decoration: none;
   color: #ffffff99;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  vertical-align: top;
+  letter-spacing: 0.25px;
 }
-.address-info a:hover {
+.address-link:hover {
   color: var(--accent-color);
 }
-.address-info a:focus {
+.address-link:focus {
   color: var(--accent-color);
 }
 
