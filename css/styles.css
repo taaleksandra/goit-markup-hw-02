@@ -9,9 +9,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   color: var(--main-color);
 }
 
@@ -23,15 +21,13 @@ body {
 .logo-first {
   color: var(--accent-color);
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
 }
 .logo-second {
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
   color: var(--black-color);
@@ -131,7 +127,6 @@ body {
 }
 .container-team-worker span {
   color: var(--descriptions-color);
-  font-weight: 400;
 }
 
 /* footer styles */
@@ -151,7 +146,6 @@ body {
 .address-info {
   color: var(--white-color);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   vertical-align: top;
@@ -161,7 +155,6 @@ body {
   text-decoration: none;
   color: #ffffff99;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   vertical-align: top;
@@ -207,7 +200,6 @@ body {
 }
 
 .projects-list span {
-  font-weight: 400;
   font-size: 16px;
   color: var(--descriptions-color);
 }
